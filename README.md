@@ -36,4 +36,20 @@ If you like to use a component that you created, you could make it with `{{  }}`
 
 ## Module 
 
-# 
+The modules are used for to render components into the general document, here are saved for after use them in the differents HTML view
+
+The modules allow us to import components in any view from the general document, maybe  into the HTML file or one component specific
+
+For used it, we will use like:
+```javascript
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+```
