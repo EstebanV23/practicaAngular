@@ -28,6 +28,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Notes
 
+## My first project
+
+* Install  `npm install -g @angular/cli`
+* Verify version of the Angular CLI `ng --version | version | -v`
+* Create a new project `ng new project_name`
+* Enter the project name with `cd project_name`
+* Execute `ng serve` for run the server
+* if you have some problems, check the npm version with `npm --version | version | -v` and check the node version with `node --version | version | -v`
+
 ## Connections between components and views
 
 For you to connect components you have to make it through `templateUrl` into the component.
@@ -43,9 +52,11 @@ The modules allow us to import components in any view from the general document,
 For used it, we will use like:
 ```javascript
 @NgModule({
+//Important
   declarations: [
     AppComponent
   ],
+//Important
   imports: [
     BrowserModule
   ],
