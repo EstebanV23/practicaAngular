@@ -68,4 +68,6 @@ For used it, we will use like:
 ## Create a new component
 
 We create a new file with the extension name_component`.comoponent.ts`
+There we going to create all the logic for the component, but we do it ourselves
+Other shape for do it is this: `ng generate | g component components_folder/component_name`
 
