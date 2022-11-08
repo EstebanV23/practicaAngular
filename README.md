@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Notes
+
+# Connections between components and views
+
+For you to connect components you have to make it through `templateUrl` into the component.
+
+If you like to use a component that you created, you could make it with `{{  }}` into the HTML file
