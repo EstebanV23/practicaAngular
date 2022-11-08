@@ -64,3 +64,8 @@ For used it, we will use like:
   bootstrap: [AppComponent]
 })
 ```
+
+## Create a new component
+
+We create a new file with the extension name_component`.comoponent.ts`
+
